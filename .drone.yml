@@ -1,0 +1,8 @@
+kind: pipeline
+name: drone-stater-pipeline
+
+steps:
+- name: build
+  image: golang
+  commands:
+  - go build
